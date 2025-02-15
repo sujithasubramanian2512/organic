@@ -1,0 +1,424 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+	background: url(./images/can.jpg);
+	background-size: cover;
+    height:89vh;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.navbar-expand-lg{
+      position: sticky;
+      top: 0px;
+}
+/*section1*/
+.container11{
+	display: flex;
+	background-color: rgb(214 121 0);
+	position:sticky;
+	top :0px;
+}      
+.su img{
+	width: 125px;
+	height: 65px;	
+}
+.nav-item a{
+	font-size: 15px;
+	color: white;
+}
+.abc ul li{
+	display: inline-block;
+	padding:30px 30px;
+	color: orange;
+}
+/*section1.0*/
+
+.A h1 {
+  color: white;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-left: 180px;
+}
+.A button{	
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 450px;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.A button:hover {
+  background-color: hotpink;
+  color: white;
+}
+.cd{
+	display: flex;
+	padding-top: 20px;
+	padding-right: -40px;
+	margin-left: 0px;
+}
+.cd form{
+	display: flex;
+}
+.cd input{
+   border:none;
+   border-color: orange;
+   padding-left: 20px;
+   color: green;
+   height: 38px;
+   width: 300px;
+   	border-radius: 5px;
+
+}
+.cd i{
+  padding: 12px;
+  margin-bottom: 40px;
+  margin-left: -37px;
+  color: orange;
+  background-color: orangered;
+  border: none;
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.cd i:hover{
+  background-color: hotpink;
+  color: white;
+}
+
+/*section2*/
+.new{
+	display: flex;
+	justify-content: space-between;
+	/* background-color:rgb(218 69 159 / 51%); */
+}
+.i {
+	display: inline-block;
+	padding-top: 80px;
+	margin-top: 150px;
+	padding-left: 190px;
+}
+.i img{
+	height: 130px;
+	width: 100px;
+	margin-left: -10px;
+
+}
+.i h6{
+      color: orange;
+      font-size: 20px;
+}
+/*section3*/
+.product{
+    display: flex;
+}
+.row12 h1{
+    margin-left: 380px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 80px;
+	color: darkgreen;
+	font-size: 40px;
+}
+.row12 h6{
+      margin-left: 280px;
+      display: inline-block;
+      justify-content: space-between;
+      padding-left: 150px;
+      color: darkgray;
+      margin-top: 20px;
+      font-size: 20px;
+  }
+.row13 button{
+	text-align: center;
+	color: black;
+	margin-left:50px;
+	border-radius: 3px;
+}
+.wow{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.wow img{
+	height: 130px;
+	width:140px;
+	margin-left: 30px;
+	margin-top: 40px;
+	box-shadow: 1px 1px 20px green, 1px 1px 60px white;
+	 transition: background 0.5s,transform 0.5s;
+	 border-radius: 20%;
+}
+.wow img:hover{
+    transform: translateY(-10px);
+}
+.card-body h6{
+      text-align: center;
+      color: chocolate;
+      font-size: 15px;
+      margin-left:20px;
+      margin-top: 20px;
+}
+.card-body p{
+	  text-align: center;
+	  color: black;
+	  font-size: 10px;
+	  margin-top: 20px;
+	  margin-left: 20px;
+}
+/*section4*/
+.about row{
+	display: inline-block;
+}
+.about h1{
+	margin-left: 170px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+	color: darkgreen;
+	font-size: 40px;
+	font-family: "Rubik Distressed", system-ui;	
+}
+.about h6{
+	  margin-left: 250px;
+	  color: darkgray;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 170px;
+      margin-top: 15px;
+      font-size: 20px;
+}
+.suji{
+	display: flex;
+}
+.suji img{
+	width: 270px;
+	height: 220px;
+	margin-left: 60px;
+	margin-top: 45px;
+	box-shadow: 1px 1px 10px hotpink, 1px 1px 60px white;
+	 transition: background 0.5s,transform 0.5s;
+	 border-radius: 10%;
+}
+.suji img:hover{
+    transform: translateY(-10px);
+}
+.suji h5{
+     text-align: center;
+     font-size: 18px;
+     margin-top: 15px;
+}
+/*section4*/
+.ashu h1{
+   margin-left: 350px;
+	padding-top: 70px;
+	color: darkgreen;
+	font-size: 40px;		
+}
+.ashu h6{
+	  margin-left: 200px;
+	  color: darkgray;
+      padding-left: 170px;
+      margin-top: 15px;
+      font-size: 20px;
+}
+.win{
+   display: flex;
+}
+.win img{
+	width: 290px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 50px;
+	box-shadow: 1px 1px 20px skyblue, 1px 1px 60px white;
+	 transition: background 0.5s,transform 0.5s;
+	 border-radius: 10%;
+}
+.win img:hover{
+    transform: translateY(10px);
+}
+.car h6{
+    text-align: center;
+      color: chocolate;
+      font-size: 25px;
+      margin-left:20px;
+      margin-top: 20px;
+}
+.car p{
+     text-align: center;
+	  color: black;
+	  font-size: 15px;
+	  margin-top: 20px;
+	  margin-left: 20px;
+}
+.fru{
+	display: flex;
+}
+.fruit img{
+	width: 290px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 50px;
+	box-shadow: 1px 1px 20px skyblue, 1px 1px 60px white;
+	 transition: background 0.5s,transform 0.5s;
+	 border-radius: 10%;
+}
+.fruit img:hover{
+    transform: translateY(10px);
+}
+.fruit h6{
+    text-align: center;
+      color: chocolate;
+      font-size: 25px;
+      margin-left:20px;
+      margin-top: 20px;
+}
+.fruit p{
+      text-align: center;
+	  color: black;
+	  font-size: 15px;
+	  margin-top: 20px;
+	  margin-left: 20px;
+}
+.store button{	
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 450px;
+  margin-top: 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.store button:hover {
+  background-color: hotpink;
+  color: white;
+}
+
+/*section5*/
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+.contact-text h2{
+	color: darkgreen;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Rubik Distressed", system-ui;	
+	padding-top: 90px;
+}
+.contact-list{
+    margin-bottom: 3rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    font-size:18px;
+    margin-top: 80px;
+}
+.contact-form form{
+    position: relative;
+    margin-left: 620px;
+    margin-top: -290px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 18px;
+    background:rgb(126 12 95);
+    color: green;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+/*section6*/
+
+.end h1{
+     margin-left: 300px;
+     margin-top: 50px;
+	padding-top: -100px;
+	color: darkgreen;
+	font-size: 40px;
+	font-family: "Rubik Distressed", system-ui;	
+}
+.end input{
+     margin-left: 300px;
+     margin-top: 30px;
+     padding-left:20px;
+     width: 400px;
+     height: 40px;
+     background-color: orange;
+     color: white;
+}
+.end button{
+      text-align: center;
+	margin-left: -104px;
+	color: white;
+	font-size: 15px;
+	height: 40px;
+	width: 100px;
+	background-color: hotpink;
+}
+.end button:hover{
+	color: chocolate;
+}
+.S{
+	display: flex;
+	margin-left: -50px;
+}
+.S h5{
+   margin-left: 120px;
+	  color: darkorange;
+      margin-top: 70px;
+      font-size: 15px;
+}
+.S p{
+     text-align: center;
+	  color: rgb(0, 0, 0, 1.0);
+	  font-size: 15px;
+	  margin-top: 20px;
+	  margin-left: 100px;	
+	  margin-bottom: 30px;
+}
+.abcd i{
+	margin-left: 20px;
+	color: rgb(0, 0, 0, 1.0);
+	margin-top: 60px;
+	padding-left: 40px;
+}
+.route p{
+	margin-left: 150px;
+	color: rgb(0, 0, 0, 1.0);
+	padding-left: 300px;
+}
+.name{
+	margin-left: 400px;
+
+}
